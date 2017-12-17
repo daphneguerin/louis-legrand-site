@@ -1,0 +1,385 @@
+.table { 
+	border-collapse: collapse; 
+	border-spacing: 0px;
+}
+.titre {
+	height:100px; 
+	position:relative; 
+	margin-top:260px; 
+	left:0; 
+	width:100%; 
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top:10px;
+	transition-duration: 1s   
+}
+.titre:hover {
+	background-color: rgba(0, 0, 0, 1.0);
+	transition-duration: 1s
+}
+.bouton {
+	width:270px; 
+	height:30px; 
+	background-color: rgba(0, 0, 0, 0.5); 
+	border-radius:10px; 
+	position: relative; 
+	margin-top:200px; 
+	margin-bottom:10px;
+	padding-top: 5px;
+	transition-duration: 0.5s
+}
+.bouton:hover {
+	box-shadow: 0px 0px 9px #000000;
+	transition-duration: 0.5s
+}
+.imageFond {
+	width:auto;
+	height:300px;
+	padding:0;
+	background-image:url('images/accueil.png');
+}
+.lienContact {
+	width:auto;
+	height:300px;
+	padding:0;
+	position: relative;
+	margin-right:0;
+	background-color:#a2d4ab;
+}
+.lienAccueil {
+	margin:0px;
+	height:50px;
+	padding:10px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 30px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.lienAccueil:hover{
+	background-color:#3eaca8;
+	transition-duration: 0.5s
+}
+.contact {
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:80px;
+	background-color:#e5eec1;
+	padding:20px;
+	font-size:20px;
+	font-weight: bold;
+	border-radius:20px;
+	transition-duration: 0.5s
+}
+.contact:hover {
+	background-color:#f5fae3;
+	border-radius:40px;
+	transition-duration: 0.5s
+}
+.bienvenu {
+	background-color: white;
+	padding: 20px;
+	border-bottom: 5px dashed #3eaca8;
+}
+.news1 {
+	font: arial 20px;
+	height:500px;
+}
+.news2 {
+	height:500px;
+	width:50%;
+	background-color:#e5eec1;
+	overflow:auto;	
+}
+.imageNews {
+	height:500px;
+	width:70%;
+	background-image:url(images/imagenews.jpg);
+	overflow: auto; 
+}
+.texteImageNews {
+	height:100%;
+	width:94%;
+	color:#f5fae3;
+	opacity: 0.0;
+	padding:20px;
+	font: arial 15px;
+	transition-duration: 0.5s;
+	overflow:auto;
+}
+.texteImageNews:hover {
+	background-color: rgba(255, 255, 255, 0.75); 
+	opacity:1.0;
+	transition-duration: 0.5s
+}
+.texteNews {
+	padding:20px;
+	font: arial 20px;
+	overflow:auto;
+}
+.images {
+	height:500px;
+	width:100%;
+	background-color: white;
+	padding:20px;
+}
+.basDePage {
+	height:200px;
+	width:100%;
+	background-color: #587A82;
+	padding:20px;
+}
+.menuLycee {
+	height:400px;
+	width:100%;
+}
+.menuLienLycee {
+	height:40px;
+	padding:10px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.menuLienLycee:hover {
+	background-color:#3eaca8;
+	transition-duration: 0.5s;
+}
+.menuResteLycee {
+	height:240px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.menuResteLycee:hover {
+	background-color:#3eaca8;
+	transition-duration: 0.5s	
+}
+.menuResteResteLycee {
+	height:1300px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menuResteResteLycee2 {
+	height:790px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menuResteResteLycee3 {
+	height:1600px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menuResteResteLycee4 {
+	height:1050px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.boutonR {
+	height:50px;
+	padding:10px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.boutonR:hover {
+	background-color:#3eaca8;
+	transition-duration: 0.5s	
+}
+.imageClub {
+	height:200px; 
+	position:absolute;  
+	left:0;
+	bottom:0; 
+	width:100%; 
+	background-color: black;
+	border-top:5px #3eaca8 solid;
+}
+.imageDefileClub {
+	height:200px;
+}
+.imageAccueilClub {
+	width:90%;
+	height: 500px; 
+	border: 3px #3eaca8 solid; 
+	border-radius: 20px;
+	transition-duration: 0.5s;
+}
+.imageAccueilClub:hover {
+	box-shadow: 0px 0px 9px #3eaca8;
+	transition-duration: 0.5s;
+}
+.presClub {
+	width: 66%;
+	height:400px;
+	padding-left: 40px;
+	padding-right: 70px;
+	font-family: arial;
+	text-align: center;
+}
+.horairesClub {
+	height:80px;
+	background-color:#e5eec1;
+	padding:40px;
+	font-size:30px;
+	text-align: left;
+	border-radius: 20px;
+}
+.caseClub {
+	width:25%;
+	height:300px;
+	transition-duration:0.5s
+}
+.caseClub:hover {
+	box-shadow: 0px 0px 9px #a2d4ab;
+	transition-duration: 0.5s;
+}
+.texteClub {
+	width:97%;
+	height:300px;
+	padding:5px;
+	background-color:#f5fae3;
+	transition-duration:0.5s;
+	text-align: center;
+	opacity : 0;
+}
+.texteClub:hover {
+	opacity:1.0;
+	background-color:rgba(245, 250, 227, 0.75);
+}
+.caseAS {
+	height:300px;
+	width:100%;
+	margin-top:0;
+	padding-top:20px;
+	padding-left:5%;
+	padding-bottom:20px;
+	transition-duration:2s
+}
+.caseASdiv {
+	width:100%;
+	height:360px;
+	margin-right:0px;
+	border-top-left-radius: 180px;
+	border-bottom-left-radius: 180px;
+	background-color: #a2d4ab;
+	transition-duration: 0.5s;
+}
+.caseASdiv:hover {
+	box-shadow: 0px 0px 20px #a2d4ab;
+	transition-duration: 0.5s;
+}	
+.vieLyceeDiv {
+	width:80%;
+	height: 400px;
+	background-color: #f5fae3;
+	border-radius: 20px;
+	margin:50px;
+	opacity : 0.75;
+	transition-duration: 0.5s;
+}
+.vieLyceeDiv:hover {
+	opacity : 1.0;
+	box-shadow: 0px 0px 20px #f5fae3;
+	transition-duration: 0.5s;
+}
+.titreVieLycee {
+	width : 100%;
+	height : 80px;
+	background-color: #a2d4ab;
+	padding: 10px;
+}
+.mardifete {
+	width:50%;
+	height:600px;
+	border: 2px solid #587A82;
+}
+.eveautre {
+	width:100%;
+	height: 300px;
+	border: 2px solid #587A82;
+}
+.titretitreevenement1 {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	padding-top: 240px;
+	transition-duration: 0.5s;
+}
+.titretitreevenement1:hover {
+	opacity: 1.0;
+	transition-duration: 0.5s;
+}
+.titretitreevenement2 {
+	height: 100%;
+	width: 100%;
+	padding-top: 90px;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+.titretitreevenement2:hover {
+	opacity: 1.0;
+	transition-duration: 0.5s;
+}
+.titreevenement {
+	width:100%;
+	height: 80px;
+	padding: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #f5fae3;
+	transition-duration: 0.5s;
+}
+.titreevenement:hover {
+	padding-left: 40px;
+	transition-duration: 0.5s;
+}
+.presconference {
+	width:80%;
+	height:600px;
+	padding:40px;
+	margin-top:100px;
+	border-radius: 40px;
+	background-color:#f5fae3;
+	opacity:0.75;
+	transition-duration: 1s;
+}
+.presconference:hover {
+	opacity:1.0;
+	box-shadow: 0px 0px 20px #f5fae3;
+	transition-duration: 0.5s;
+}
+
+.section {
+	width: 100%;
+}
+
+.grid {
+	display: flex;
+}
+
+.grid > .col-50 {
+	flex-basis: 50%;
+}
+
+.news-title {
+	color:#3eaca8;
+	font:30px arial;
+	text-align: center;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
