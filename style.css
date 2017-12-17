@@ -365,19 +365,15 @@
 	box-shadow: 0px 0px 20px #f5fae3;
 	transition-duration: 0.5s;
 }
-
 .section {
 	width: 100%;
 }
-
 .grid {
 	display: flex;
 }
-
 .grid > .col-50 {
 	flex-basis: 50%;
 }
-
 .news-title {
 	color:#3eaca8;
 	font:30px arial;
