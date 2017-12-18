@@ -176,7 +176,7 @@
 	font-weight: bold;
 }
 .menuResteResteLycee3 {
-	height:1600px;
+	height:1590px;
 	background-color:#587A82;
 	border:3px #3eaca8 solid;
 	font-size: 20px;
@@ -204,12 +204,12 @@
 }
 .imageClub {
 	height:200px; 
-	position:absolute;  
 	left:0;
 	bottom:0; 
 	width:100%; 
 	background-color: black;
 	border-top:5px #3eaca8 solid;
+	margin-top: 40px;
 }
 .imageDefileClub {
 	height:200px;
@@ -380,4 +380,68 @@
 	text-align: center;
 	font-weight: bold;
 	margin: 0.5em 0;
+}
+
+.font {
+	font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif ;
+	font-size: 24px;
+	text-align: justify;
+}
+ 
+.presevenement {
+    width:80%;
+    height:70%;
+    padding:40px;
+    margin-top:100px;
+    border-radius: 40px;
+    background-color:#f5fae3;
+    opacity:0.75;
+    transition-duration: 1s;
+    margin-bottom:100px;
+    overflow:auto;
+}
+.presevenement:hover {
+    opacity:1.0;
+    box-shadow: 0px 0px 20px #f5fae3;
+    transition-duration: 0.5s;
+}
+.presconference {
+    width:60%;
+    background-color:#a2d4ab;
+    border-radius:30px;
+    overflow:auto;
+    padding: 20px;
+    margin-top: 40px;
+}
+.casetextecontact {
+    width:400px;
+    height:300px;
+    overflow:auto;
+    padding:30px;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+    background-color: #a2d4ab;
+    transition-duration: 0.5s;
+}
+.casetextecontact:hover {
+    box-shadow: 0px 0px 20px #a2d4ab;
+    transition-duration: 0.5s;
+}
+.caseimagecontact {
+    height:300px;
+    width:200px;
+    overflow:auto;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    background-color: #a2d4ab;
+    transition-duration: 0.5s;
+}
+.caseimagecontact:hover {
+    box-shadow: 0px 0px 20px #a2d4ab;
+    transition-duration: 0.5s;
+}
+.casevidecontact {
+    width:40px;
+    height:300px;
+    opacity:0;
 }
