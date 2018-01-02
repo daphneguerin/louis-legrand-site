@@ -414,7 +414,7 @@
     margin-top: 40px;
 }
 .casetextecontact {
-    width:400px;
+    width:790px;
     height:300px;
     overflow:auto;
     padding:30px;
@@ -444,4 +444,14 @@
     width:40px;
     height:300px;
     opacity:0;
+}
+
+.photo-ombre {
+    width: 80%;
+    box-shadow: 3px 3px 6px rgba(0,0,0, 0.4);
+}
+.police-bleue {
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	color: #587A82;
+	text-align: justify;
 }
