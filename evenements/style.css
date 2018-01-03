@@ -1,0 +1,550 @@
+.table { 
+	border-collapse: collapse; 
+	border-spacing: 0px;
+}
+.titre {
+	height:100px; 
+	position:relative; 
+	margin-top:260px; 
+	left:0; 
+	width:100%; 
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top:10px;
+	transition-duration: 1s   
+}
+.titre:hover {
+	background-color: rgba(0, 0, 0, 1.0);
+	transition-duration: 1s
+}
+.bouton {
+	width:270px; 
+	height:30px; 
+	background-color: rgba(0, 0, 0, 0.5); 
+	border-radius:10px; 
+	position: relative; 
+	margin-top:200px; 
+	margin-bottom:10px;
+	padding-top: 5px;
+	transition-duration: 0.5s
+}
+.bouton:hover {
+	box-shadow: 0px 0px 9px #000000;
+	transition-duration: 0.5s
+}
+.imagefond {
+	width:auto;
+	height:300px;
+	padding:0;
+	background-image:url('images/accueil.png');
+}
+.lienContact {
+	width:auto;
+	height:300px;
+	padding:0;
+	position: relative;
+	margin-right:0;
+	background-color:#a2d4ab;
+}
+.lienAccueil {
+	margin:0px;
+	height:50px;
+	padding:10px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 30px;
+	font-weight: bold;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.lienAccueil:hover{
+	background-color:#3eaca8;
+	transition-duration: 0.5s
+}
+.contact {
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:80px;
+	background-color:#e5eec1;
+	padding:20px;
+	font-size:20px;
+	font-weight: bold;
+	border-radius:20px;
+	transition-duration: 0.5s
+}
+.contact:hover {
+	background-color:#f5fae3;
+	border-radius:40px;
+	transition-duration: 0.5s
+}
+.bienvenu {
+	background-color: white;
+	padding: 20px;
+	border-bottom: 5px dashed #3eaca8;
+}
+.news1 {
+	font: arial 20px;
+	height:500px;
+}
+.news2 {
+	height:500px;
+	width:50%;
+	background-color:#e5eec1;
+	overflow:auto;	
+}
+.imageNews {
+	position: relative;
+	width: 350px;
+	height:500px;
+	background-image:url(images/imagenews.jpg);
+	background-size: contain;
+	margin: auto;
+	font-size: 13px;
+	background-repeat: no-repeat;
+}
+.texteImageNews {
+	height:100%;
+	color:#5a5050;
+	opacity: 0.0;
+	padding:20px;
+	font-size: 20px;
+}
+.texteImageNews:hover {
+	background-color: rgba(255, 255, 255, 0.75); 
+	opacity:1.0;
+	transition-duration: 0.5s
+}
+.texteNews {
+	padding:20px;
+	font: arial 20px;
+	overflow:auto;
+}
+.images {
+	height:500px;
+	width:100%;
+	background-color: white;
+	padding:20px;
+}
+.basDePage {
+	height:200px;
+	width:100%;
+	background-color: #587A82;
+	padding:20px;
+}
+.menuLycee {
+	height:400px;
+	width:100%;
+	border-collapse: collapse;
+}
+.menuLienLycee {
+	height:40px;
+	padding:10px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.menuLienLycee:hover {
+	background-color:#3eaca8;
+	transition-duration: 0.5s;
+}
+.menuResteLycee {
+	height:240px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.menuResteLycee:hover {
+	background-color:#3eaca8;
+	transition-duration: 0.5s	
+}
+.menuResteResteLycee {
+	height:1325px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menuResteResteLycee2 {
+	height:1118px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menuResteResteLycee3 {
+	height:1916px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menuResteResteLycee4 {
+	height:1073px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+.boutonR {
+	height:50px;
+	padding:10px;
+	background-color:#587A82;
+	border:3px #3eaca8 solid;
+	font-size: 20px;
+	font-weight: bold;
+	transition-duration: 0.5s
+}
+.boutonR:hover {
+	background-color:#3eaca8;
+	transition-duration: 0.5s	
+}
+.imageClub {
+	height:200px; 
+	left:0;
+	bottom:0; 
+	width:100%; 
+	background-color: black;
+	border-top:5px #3eaca8 solid;
+	border-bottom:5px #3eaca8 solid;
+	margin-top: 40px;
+}
+.imageDefileClub {
+	height:200px;
+}
+.imageAccueilClub {
+	width:90%;
+	border: 3px #3eaca8 solid; 
+	border-radius: 20px;
+	transition-duration: 0.5s;
+}
+.imageAccueilClub:hover {
+	box-shadow: 0px 0px 9px #3eaca8;
+	transition-duration: 0.5s;
+}
+.presClub {
+	width: 66%;
+	height:400px;
+	padding-left: 40px;
+	padding-right: 70px;
+	font-family: arial;
+	text-align: center;
+}
+.horairesClub {
+	background-color:#e5eec1;
+	padding:40px;
+	font-size:20px;
+	text-align: left;
+	border-radius: 20px;
+	overflow :auto;
+}
+.horairesClub2 {
+	height:400px;
+	background-color:#e5eec1;
+	padding:40px;
+	font-size:20px;
+	text-align: left;
+	border-radius: 20px;
+	overflow :auto;
+}
+.horairesJournal {
+	height:80px;
+	width:70%;
+	background-color:#e5eec1;
+	padding:20px;
+	font-size:18px;
+	text-align: center;
+	border-radius: 20px;
+	overflow :auto;
+}
+.afficheCine {
+	height:100px;
+	width:250px;
+	background-color:#587A82;
+	padding:20px;
+	margin:20px;
+	font-size:18px;
+	text-align: left;
+	border-radius: 20px;
+	overflow :auto;
+}
+.caseClub {
+	width:25%;
+	height:300px;
+	transition-duration:0.5s
+}
+.caseClub:hover {
+	box-shadow: 0px 0px 9px #a2d4ab;
+	transition-duration: 0.5s;
+}
+.texteClub {
+	width:97%;
+	height:300px;
+	padding:5px;
+	background-color:#f5fae3;
+	transition-duration:0.5s;
+	text-align: center;
+	opacity : 0;
+}
+.texteClub:hover {
+	opacity:1.0;
+	background-color:rgba(245, 250, 227, 0.75);
+}
+.caseCreerClub {
+	width:100%;
+	height:300px;
+	transition-duration:0.5s
+}
+.texteClub2 {
+	width:100%;
+	height:300px;
+	padding:5px;
+	background-color:rgba(245, 250, 227, 0.90);
+	transition-duration:0.5s;
+	text-align: center;
+}
+.texteClub2:hover {
+	text-shadow: 0 0 3px #3eaca8, 0 0 5px #3eaca8;
+	background-color:rgba(245, 250, 227, 0.75);
+}
+.caseAS {
+	height:300px;
+	width:100%;
+	margin-top:0;
+	padding-top:20px;
+	padding-left:5%;
+	padding-bottom:20px;
+	transition-duration:2s
+}
+.caseASdiv {
+	width:100%;
+	height:360px;
+	margin-right:0px;
+	border-top-left-radius: 180px;
+	border-bottom-left-radius: 180px;
+	background-color: #a2d4ab;
+	transition-duration: 0.5s;
+}
+.caseASdiv:hover {
+	box-shadow: 0px 0px 20px #a2d4ab;
+	transition-duration: 0.5s;
+}	
+.vieLyceeDiv {
+	width:80%;
+	background-color: #f5fae3;
+	border-radius: 20px;
+	margin:50px;
+	opacity : 0.75;
+	padding: 40px;
+	height:250px;
+	overflow:auto;
+	transition-duration: 0.5s;
+}
+.vieLyceeDiv:hover {
+	opacity : 1.0;
+	box-shadow: 0px 0px 20px #f5fae3;
+	transition-duration: 0.5s;
+}
+.titreVieLycee {
+	width : 100%;
+	height : 80px;
+	background-color: #a2d4ab;
+	padding: 10px;
+}
+.mardifete {
+	width:50%;
+	height:600px;
+	border: 2px solid #587A82;
+}
+.eveautre {
+	width:100%;
+	height: 300px;
+	border: 2px solid #587A82;
+}
+.titretitreevenement1 {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	padding-top: 240px;
+	transition-duration: 0.5s;
+}
+.titretitreevenement1:hover {
+	opacity: 1.0;
+	transition-duration: 0.5s;
+}
+.titretitreevenement2 {
+	height: 100%;
+	width: 100%;
+	padding-top: 90px;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+.titretitreevenement2:hover {
+	opacity: 1.0;
+	transition-duration: 0.5s;
+}
+.titreevenement {
+	width:100%;
+	height: 80px;
+	padding: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: rgba(245, 250, 227, 0.9);
+	transition-duration: 0.5s;
+}
+.titreevenement:hover {
+	padding-left: 40px;
+	transition-duration: 0.5s;
+}
+.presevenement {
+	width:80%;
+	height:70%;
+	padding:40px;
+	margin-top:100px;
+	border-radius: 40px;
+	background-color:#f5fae3;
+	opacity:0.75;
+	transition-duration: 1s;
+	margin-bottom:100px;
+	overflow:auto;
+}
+.presevenement:hover {
+	opacity:1.0;
+	box-shadow: 0px 0px 20px #f5fae3;
+	transition-duration: 0.5s;
+}
+.presconference {
+	width:60%;
+	background-color:#a2d4ab;
+	border-radius:30px;
+	overflow:auto;
+	padding: 20px;
+	margin-top: 40px;
+	transition-duration: 0.5s;
+}
+.presconference:hover {
+	box-shadow: 0px 0px 20px #a2d4ab;
+	transition-duration: 0.5s;
+}
+.prestournoivolley {
+	width:80%;
+	background-color:#a2d4ab;
+	border-radius:30px;
+	overflow:auto;
+	padding: 20px;
+	margin: 20px;
+	transition-duration: 0.5s;
+}
+.prestournoivolley:hover {
+	box-shadow: 0px 0px 20px #a2d4ab;
+	transition-duration: 0.5s;
+}
+.section {
+	width: 100%;
+}
+.grid {
+	display: flex;
+}
+.grid > .col-50 {
+	flex-basis: 50%;
+}
+.news-title {
+	color:#3eaca8;
+	font:30px arial;
+	text-align: center;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+
+.font {
+	font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif ;
+	font-size: 24px;
+	text-align: justify;
+}
+.casetextecontact {
+    width:790px;
+    height:300px;
+    overflow:auto;
+    padding:30px;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+    background-color: #a2d4ab;
+    transition-duration: 0.5s;
+}
+.casetextecontact:hover {
+    box-shadow: 0px 0px 20px #a2d4ab;
+    transition-duration: 0.5s;
+}
+.caseimagecontact {
+    height:300px;
+    width:200px;
+    overflow:auto;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    background-color: #a2d4ab;
+    transition-duration: 0.5s;
+}
+.caseimagecontact:hover {
+    box-shadow: 0px 0px 20px #a2d4ab;
+    transition-duration: 0.5s;
+}
+.casevidecontact {
+    width:40px;
+    height:300px;
+    opacity:0;
+}
+.afficheConf {
+	height:400px; 
+	border: 3px solid #3eaca8;
+	transition-duration: 0.5s;
+}
+.afficheConf:hover {
+	height:420px;
+	box-shadow: 0px 0px 20px #3eaca8;
+	transition-duration: 0.5s;
+}
+
+.photo-ombre {
+    width: 80%;
+    box-shadow: 3px 3px 6px rgba(0,0,0, 0.4);
+}
+.police-bleue {
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	color: #587A82;
+	text-align: justify;
+}
+.prescreer {
+	width:70%;
+	background-color:#e5eec1;
+	padding:20px;
+	font-size:18px;
+	text-align: center;
+	border-radius: 20px;
+}
+.imagePiece {
+	width: 300px;
+	margin:20px;
+	border-radius: 150px;
+	border: 3px solid #3eaca8;
+	transition-duration : 0.5s;
+}
+.imagePiece:hover {
+	box-shadow: 0px 0px 20px #a2d4ab;
+	transition-duration: 0.5s;
+}
+.fondPiece {
+	text-align: center;
+	font-weight: bold;
+	color: rgba(88, 122, 130, 0);
+	font: arial;
+	font-size: 24px;
+	transition-duration: 0.5s
+}
+.fondPiece:hover {
+	transition-duration: 0.5s;
+	color: rgba(88, 122, 130, 1.0);
+}
