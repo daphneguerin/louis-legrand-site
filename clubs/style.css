@@ -517,34 +517,3 @@
 	color: #587A82;
 	text-align: justify;
 }
-.prescreer {
-	width:70%;
-	background-color:#e5eec1;
-	padding:20px;
-	font-size:18px;
-	text-align: center;
-	border-radius: 20px;
-}
-.imagePiece {
-	width: 300px;
-	margin:20px;
-	border-radius: 150px;
-	border: 3px solid #3eaca8;
-	transition-duration : 0.5s;
-}
-.imagePiece:hover {
-	box-shadow: 0px 0px 20px #a2d4ab;
-	transition-duration: 0.5s;
-}
-.fondPiece {
-	text-align: center;
-	font-weight: bold;
-	color: rgba(88, 122, 130, 0);
-	font: arial;
-	font-size: 24px;
-	transition-duration: 0.5s
-}
-.fondPiece:hover {
-	transition-duration: 0.5s;
-	color: rgba(88, 122, 130, 1.0);
-}
